@@ -1,4 +1,4 @@
-# secrets: your Dune API key lives here and must never reach GitHub
+# local secrets
 .env
 
 # Python leftovers

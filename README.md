@@ -1,23 +1,15 @@
-# eth-onchain
+# Ethereum On-Chain tracking project
 
-Tracking Ethereum's supply health with onchain data: how much ETH gets burned, how that compares with new issuance, and what changed after Layer 2 scaling.
+A project to practice SQL and understand what is happening on Ethereum using on-chain data. 
 
-## Question
+The data comes from Google's public Ethereum dataset in BigQuery.
 
-(Day 14: write the question you set out to answer.)
+## What I track 
 
-## Data
+- How much ETH is burned per day
+- How full blocks are
+- Gas fees over time
 
-(Day 14: which BigQuery tables, what time range, what you excluded and why.)
+I'm looking for trends over time to see how the chain is growing. 
 
-## Findings
-
-(Day 14: what the data showed, with numbers.)
-
-## How it works
-
-- `sql/`: the BigQuery queries (run in the BigQuery console)
-- `results/`: query results saved as CSV
-- `src/`: Python that reads the results and runs the checks
-- `tests/`: tests for the checks
-- `reports/latest.md`: the latest numbers
+Eventually this will pain a picture of how Ethereum is growing, where it's growing, and what the tokenomics look like. 
