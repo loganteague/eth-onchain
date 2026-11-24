@@ -12,4 +12,4 @@ The data comes from Google's public Ethereum dataset in BigQuery.
 
 I'm looking for trends over time to see how the chain is growing. 
 
-Eventually this will pain a picture of how Ethereum is growing, where it's growing, and what the tokenomics look like. 
+Eventually this will paint a picture of how Ethereum is growing, where it's growing, and what the tokenomics look like. 
